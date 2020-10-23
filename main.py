@@ -59,8 +59,8 @@ class PoseDetector:
 
 def update_arm(left_elbow, left_wrist, right_elbow, right_wrist):
     if left_wrist[1] > right_wrist[1]:
-        return 2
-    return 3
+        return 1
+    return 2
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
